@@ -63,7 +63,7 @@ async function fetchNews() {
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${GEMINI_API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent?key=${GEMINI_API_KEY}`,
       {
         method: 'POST',
         headers: {
@@ -85,11 +85,18 @@ async function fetchNews() {
     );
 
     if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.error?.message || `API Error: ${response.status}`);
+      const errorText = await response.text();
+      console.error('API Response:', errorText);
+      try {
+        const errorData = JSON.parse(errorText);
+        throw new Error(errorData.error?.message || `API Error: ${response.status}`);
+      } catch (e) {
+        throw new Error(`API Error: ${response.status} - ${errorText.substring(0, 200)}`);
+      }
     }
 
     const data = await response.json();
+    console.log('API Response received, processing...');
     
     // 응답에서 텍스트 추출
     let resultText = '';
