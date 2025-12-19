@@ -35,7 +35,7 @@ function checkCooldown() {
   }
 }
 
-const prompt = `당신은 AI 뉴스 큐레이터입니다. 지난 24시간 동안의 AI 관련 주요 소식을 검색하고 한국어로 요약해주세요.
+const prompt = `당신은 AI 뉴스 큐레이터입니다. 지난 24시간 동안의 AI 관련 주요 소식을 한국어로 요약해주세요.
 
 다음 JSON 형식으로 정확히 응답해주세요 (다른 텍스트 없이 JSON만):
 
@@ -45,15 +45,16 @@ const prompt = `당신은 AI 뉴스 큐레이터입니다. 지난 24시간 동�
       "title": "뉴스 제목",
       "summary": "핵심 내용 2-3문장 요약",
       "importance": "왜 중요한지 간단히 설명",
-      "source": "출처 (알 수 있는 경우)",
-      "url": "관련 링크 (알 수 있는 경우)"
+      "source": "출처 매체명 (예: Reuters, TechCrunch, 연합뉴스 등)"
     }
   ]
 }
 
-검색할 주요 키워드: AI model release, LLM, OpenAI, Anthropic, Google AI, Meta AI, AI regulation, AI research breakthrough
+주요 키워드: AI model release, LLM, OpenAI, Anthropic, Google AI, Meta AI, AI regulation, AI research breakthrough
 
-중요도가 높은 순서대로 5-10개 소식을 정리해주세요. 단순 제품 업데이트보다는 기술적 혁신이나 업계에 영향을 미치는 뉴스를 우선해주세요.`;
+중요도가 높은 순서대로 5-10개 소식을 정리해주세요. 단순 제품 업데이트보다는 기술적 혁신이나 업계에 영향을 미치는 뉴스를 우선해주세요.
+
+중요: 실제로 존재하는 뉴스만 포함하세요. 확실하지 않은 정보는 제외하세요.`;
 
 async function fetchNews() {
   // 쿨타임 체크 (테스트 중 비활성화)
@@ -73,11 +74,8 @@ async function fetchNews() {
           contents: [{
             parts: [{ text: prompt }]
           }],
-          tools: [{
-            google_search: {}
-          }],
           generationConfig: {
-            temperature: 0.7,
+            temperature: 0.5,
             maxOutputTokens: 8192,
           }
         })
