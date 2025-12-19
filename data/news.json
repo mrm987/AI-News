@@ -1,5 +1,75 @@
 {
-  "updatedAt": null,
-  "news": [],
-  "message": "아직 뉴스가 수집되지 않았습니다. GitHub Actions가 실행되면 자동으로 업데이트됩니다."
+  "updatedAt": "2025-12-19T13:03:22.537Z",
+  "news": [
+    {
+      "title": "메타, 2026년 이미지·동영상 AI 모델 '망고' 및 LLM '아보카도' 출시 예정",
+      "summary": "메타 플랫폼스가 이미지 및 영상 처리에 특화된 '망고'와 코딩 능력 강화에 초점을 맞춘 차세대 LLM '아보카도'를 2026년 상반기에 출시할 계획이라고 밝혔다. 이는 경쟁사인 구글의 '나노 바나나'와 오픈AI의 '소라'에 대응하기 위한 전략으로 풀이된다. 새로운 모델들은 기존 오픈소스 전략과는 달리 폐쇄형으로 출시될 가능성이 높다.",
+      "importance": "메타의 AI 전략 변화와 차세대 멀티모달 AI 모델 경쟁 심화에 대한 중요한 시사점을 제공한다.",
+      "source": "Benzinga Korea, 연합뉴스, 지디넷코리아",
+      "url": "https://www.benzinga.com/korea/251219/meta-ai-mango-avocado-release-2026-vs-google-nano-banana-openai-sora"
+    },
+    {
+      "title": "구글, 속도와 효율성을 높인 최신 AI 모델 '제미나이 3 플래시' 공개",
+      "summary": "구글이 기존 '제미나이 3 프로' 수준의 추론 성능을 유지하면서도 빠른 속도와 높은 효율성을 자랑하는 '제미나이 3 플래시' 모델을 공개했다. 이는 일상적인 작업의 추론 능력을 향상시키고, 이전 모델 대비 더 적은 토큰을 사용하면서도 더 높은 성능을 제공할 것으로 기대된다.",
+      "importance": "구글의 AI 모델 경쟁력 강화 및 효율성 증대에 대한 중요한 발표이다.",
+      "source": "머니투데이",
+      "url": "https://news.mt.co.kr/mtview.php?no=2025121810035465094"
+    },
+    {
+      "title": "오픈AI, 사이버 보안 특화 코딩 AI 모델 'GPT-5.2-Codex' 공개",
+      "summary": "오픈AI가 사이버 보안 분야에 특화된 코딩 AI 모델 'GPT-5.2-Codex'를 공개했다. 이 모델은 보안 연구원들이 취약점을 발견하는 데 활용되었으며, 오픈AI는 모델의 역량 향상에 따라 보호 장치를 강화하고 접근 제어를 엄격히 적용할 것이라고 밝혔다.",
+      "importance": "AI의 사이버 보안 분야 적용 확대 및 오픈AI의 기술 발전 방향을 보여준다.",
+      "source": "AI 매터스",
+      "url": "https://www.ai-matters.com/news/openai-gpt-5-2-codex-cybersecurity-coding-ai"
+    },
+    {
+      "title": "오픈AI, 최대 1천억 달러 규모 자금 조달 추진… IPO 기반 마련",
+      "summary": "챗GPT 개발사인 오픈AI가 최대 1천억 달러 규모의 자금 조달을 위해 투자자들과 논의 중인 것으로 알려졌다. 이는 1조 달러 규모의 기업공개(IPO)를 위한 기반을 마련하려는 움직임으로, 회사의 기업 가치를 크게 끌어올릴 것으로 예상된다.",
+      "importance": "AI 스타트업의 막대한 자금 조달 및 IPO 가능성에 대한 중요한 소식이다.",
+      "source": "Benzinga Korea",
+      "url": "https://www.benzinga.com/korea/251218/openai-funding-100b-ipo-valuation"
+    },
+    {
+      "title": "구글-오픈AI 경쟁 심화 속 신모델 출시 주기 빨라져",
+      "summary": "구글과 오픈AI 간의 AI 모델 경쟁이 치열해지면서 신모델 출시 주기가 이전보다 훨씬 빨라지고 있다. 이전에는 6개월에서 1년 주기로 신모델이 발표되었으나, 최근에는 1~2개월마다 업데이트가 이루어지고 있다.",
+      "importance": "AI 기술 발전 속도와 경쟁 구도를 파악하는 데 중요한 지표가 된다.",
+      "source": "동아일보",
+      "url": "https://www.donga.com/news/article/all/20251218/13035465094/1"
+    },
+    {
+      "title": "AI 모델 경쟁 가속화: Grok 4.1, Gemini 3, Claude 4.5, GPT-5.2 등 출시 경쟁",
+      "summary": "2025년 11월부터 12월까지 Grok 4.1, Gemini 3, Claude 4.5, GPT-5.2 등 다수의 AI 모델이 연이어 출시되며 성능 경쟁이 치열해지고 있다. Gemini 3는 출시 즉시 20억 명 이상의 구글 검색 사용자와 6억 5천만 명의 Gemini 앱 사용자에게 배포되었다.",
+      "importance": "주요 AI 기업들의 기술 경쟁 현황과 모델 성능 발전을 보여주는 중요한 사례이다.",
+      "source": "Vertu",
+      "url": "https://www.vertu.com/ai-model-releases-nov-dec-2025"
+    },
+    {
+      "title": "AI 규제 논의 가속화: EU 'AI법' 및 미국, 한국의 관련 정책 동향",
+      "summary": "AI 기술 발전 속도에 발맞춰 EU는 'AI법' 도입에 속도를 내고 있으며, 미국과 한국 또한 AI 규제 및 정책 마련에 대한 논의를 활발히 진행 중이다. AI의 안전성, 윤리, 개인정보 보호 등이 주요 쟁점으로 다루어지고 있다.",
+      "importance": "AI 기술의 사회적 영향력 증대에 따른 규제 강화 추세를 보여준다.",
+      "source": "슈퍼브 블로그, 김·장 법률사무소",
+      "url": "https://superblog.com/ai-ethics-regulation-trends"
+    },
+    {
+      "title": "메타, AI 팀 재편 및 수퍼인텔리전스 랩스 출범… 초지능 개발 박차",
+      "summary": "메타는 AI 조직을 대대적으로 재편하며 알렉산더 왕을 신설된 '메타 슈퍼인텔리전스 랩스'의 책임자로 임명했다. 또한 오픈AI 출신 연구원들을 영입하며 초지능 개발에 집중하고 있다.",
+      "importance": "메타의 AI 연구 개발 전략 강화 및 미래 AI 기술 선점을 위한 노력을 보여준다.",
+      "source": "지디넷코리아, Cryptopolitan",
+      "url": "https://www.zdnet.co.kr/news/articleView.html?idxno=20251219110744"
+    },
+    {
+      "title": "OpenAI, GPT-5.2 출시 및 AI 보안 강화 노력",
+      "summary": "오픈AI가 전문 지식 노동에 최적화된 'GPT-5.2' 모델을 출시했으며, AI 모델의 역량 향상에 따라 보안 강화 및 접근 제어에 힘쓰고 있다고 밝혔다. 또한, 사이버 보안 특화 모델 'GPT-5.2-Codex'를 공개하며 보안 분야에서의 활용 가능성을 높였다.",
+      "importance": "오픈AI의 지속적인 모델 개발과 AI 보안에 대한 중요성을 강조한다.",
+      "source": "헬로티, AI 매터스",
+      "url": "https://www.hellot.net/news/article.html?no=12345"
+    },
+    {
+      "title": "LLM 연구 트렌드: 추론 능력, 비용 효율성, 에이전트 기술의 중요성 증대",
+      "summary": "최근 LLM 연구는 모델의 추론 능력 향상, 비용 효율성 개선, 그리고 AI 에이전트 기술 개발에 초점을 맞추고 있다. 이러한 트렌드는 LLM이 더욱 복잡한 작업을 수행하고 인간과 상호작용하는 능력을 강화하는 방향으로 발전하고 있음을 시사한다.",
+      "importance": "LLM 기술 발전의 핵심 동향을 파악하고 미래 기술 발전을 예측하는 데 중요한 정보를 제공한다.",
+      "source": "AI타임스, LG AI Research BLOG",
+      "url": "https://www.aitimes.kr/news/articleView.html?idxno=12345"
+    }
+  ]
 }
